@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="diseño.css">
+    <title>Menú lateral</title>
+</head>
+<body>
+    
+    <div class="menu">
+        <h1>Dashboard</h1>
+        <div class="elementos_menu">
+            <div class="raya1"></div>
+            <div class="opcion_menu">
+                <input type="radio" name="opciones" id="opcion_inicio" checked>
+                <label for="opcion_inicio" onclick="opcionSeleccionada(1)"><i class="fa-solid fa-house"></i>Inicio</label>
+            </div>
+            <div class="opcion_menu">
+                <input type="radio" name="opciones" id="opcion_pedidos">
+                <label for="opcion_pedidos" onclick="opcionSeleccionada(2)"><i class="fa-solid fa-truck-fast"></i>Pedidos</label>
+            </div>
+            <div class="opcion_menu">
+                <input type="radio" name="opciones" id="opcion_vendedores">
+                <label for="opcion_vendedores" onclick="opcionSeleccionada(3)"><i class="fa-solid fa-users"></i>Vendedores</label>
+            </div>
+            <div class="opcion_menu">
+                <input type="radio" name="opciones" id="opcion_descargas">
+                <label for="opcion_descargas" onclick="opcionSeleccionada(4)"><i class="fa-solid fa-download"></i>Descargas</label>
+            </div>
+            <div class="opcion_menu">
+                <input type="radio" name="opciones" id="opcion_github">
+                <label for="opcion_github" onclick="opcionSeleccionada(5)"><i class="fa-brands fa-github"></i>Github</label>
+            </div>
+            <div class="opcion_menu">
+                <input type="radio" name="opciones" id="opcion_menu">
+                <label for="opcion_menu" onclick="opcionSeleccionada(6)"><i class="fa-solid fa-envelope"></i>Email</label>
+            </div>
+            <div class="raya2"></div>
+            <div class="opcion_menu">
+                <div class="opcion_salir" onclick="opcionSeleccionada(7)"><i class="fa-solid fa-right-from-bracket"></i>Salir</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="java.js"></script>
+
+
+
+
+
+
+</body>
+</html>
